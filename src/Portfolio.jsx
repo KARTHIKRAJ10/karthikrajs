@@ -664,7 +664,7 @@ export default function Portfolio() {
           </AnimatedSection>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "2.25rem", marginTop: "2rem" }}>
             <AnimatedSection delay={100}>
-              <p style={{ color: "var(--text-secondary)", fontSize: "0.9rem", lineHeight: 1.8, marginBottom: "0.9rem" }}>I'm a Data & AI professional based in Toronto with 3+ years spanning marketing analytics, machine learning, customer intelligence, and analytics engineering. My work sits at the intersection of data science and business strategy — I build systems that make decisions better.</p>
+              <p style={{ color: "var(--text-secondary)", fontSize: "0.9rem", lineHeight: 1.8, marginBottom: "0.9rem" }}>I'm a Data & AI professional based in Canada with 3+ years spanning marketing analytics, machine learning, customer intelligence, and analytics engineering. My work sits at the intersection of data science and business strategy — I build systems that make decisions better.</p>
               <p style={{ color: "var(--text-secondary)", fontSize: "0.9rem", lineHeight: 1.8 }}>Most energized by problems at the intersection of ecommerce, marketing science, customer behavior, and applied AI — where the right system directly moves revenue, retention, and experience metrics.</p>
             </AnimatedSection>
             <AnimatedSection delay={200}>
