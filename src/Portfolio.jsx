@@ -876,7 +876,7 @@ export default function Portfolio() {
                   </div>
                   <div className="contact-detail-item">
                     <div className="contact-detail-label">Location</div>
-                    <div className="contact-detail-value">Ontario, Canada</div>
+                    <div className="contact-detail-value"> Canada</div>
                   </div>
                   <div className="contact-detail-item">
                     <div className="contact-detail-label">Preferred Roles</div>
