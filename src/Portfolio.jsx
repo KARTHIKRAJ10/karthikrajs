@@ -162,9 +162,9 @@ function useInView(threshold = 0.15) {
 function useScrollY() {
   const [y, setY] = useState(0);
   useEffect(() => {
-    window.scrollTo(0, 0);
-    if ('scrollRestoration' in window.history) {
-      window.history.scrollRestoration = 'manual';
+    const h = () => setY(window.scrollY);
+    window.addEventListener("scroll", h, { passive: true });
+    return () => window.removeEventListener("scroll", h);
   }, []);
   return y;
 }
